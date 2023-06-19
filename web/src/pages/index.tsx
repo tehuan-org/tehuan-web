@@ -7,7 +7,21 @@ interface Props {}
 
 const Home: NextPage<Props> = ({}) => {
   useSeo({
-    title: "Tehuan ",
+    title: "Tehuan",
+    description:
+      "Sociedad enfocada al desarrollo de proyectos con caracter social",
+    openGraph: {
+      title: "Tehuan",
+      type: "Website",
+      url: "tehuan.org",
+      images: [
+        {
+          url: `/preview.jpg`,
+          width: 500,
+          alt: "Tehuan Preview",
+        },
+      ],
+    },
   });
 
   return (
