@@ -25,6 +25,7 @@
     "jotai": "^2.2.0",
     "next": "^13.2.4",
     "next-seo": "^6.0.0",
+    "nextjs-google-analytics": "^2.3.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "superjson": "1.12.2",
